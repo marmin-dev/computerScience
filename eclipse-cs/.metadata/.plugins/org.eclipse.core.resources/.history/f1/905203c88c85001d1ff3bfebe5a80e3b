@@ -1,0 +1,27 @@
+package factoryPattern;
+
+abstract class Coffee{
+	public abstract int getPrice();
+	
+	@Override
+	public String toString() {
+		return "hi there! It's "+this.getPrice();
+	}
+}
+
+class coffeeFactory {
+	public static Coffee getCoffee(String type, int price) {
+		if("Latte".equalsIgnoreCase(type)) return new Latte(price);
+		else if ("Americano".equalsIgnoreCase(type)) {
+			return new Americano(price);
+		}
+	}
+}
+public class CoffeeWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

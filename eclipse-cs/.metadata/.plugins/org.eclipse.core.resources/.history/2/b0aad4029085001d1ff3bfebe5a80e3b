@@ -1,0 +1,20 @@
+package strategyPattern;
+
+interface PaymentStrategy{
+	public void pay(int amount);
+}
+
+class KAKAOCardStrategy{
+	private String name;
+	private String cardNumber;
+	private String cvv;
+	private String dateOfExpiry;
+}
+
+public class PayWorld {
+
+	public static void main(String[] args) {
+
+	}
+
+}
