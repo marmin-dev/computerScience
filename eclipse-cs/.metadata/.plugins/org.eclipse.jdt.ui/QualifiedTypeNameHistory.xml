@@ -18,4 +18,6 @@
     <fullyQualifiedTypeName name="observerPattern.Topic"/>
     <fullyQualifiedTypeName name="observerPattern.Observer"/>
     <fullyQualifiedTypeName name="observerPattern.TopicSubscriber"/>
+    <fullyQualifiedTypeName name="java.text.Format"/>
+    <fullyQualifiedTypeName name="objectOrientedProgramming.Person"/>
 </qualifiedTypeNameHistroy>
